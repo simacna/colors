@@ -3,9 +3,52 @@
  <head>
   <meta charset="UTF-8">
   <title>colors</title>
-  <script src="color.js"></script>
  </head>
+ <style>
+
+ 	* { /*remove whitespace*/
+ 		margin: 0;
+ 		padding: 0;
+ 	}
+
+ 	html, body {
+ 		width, height: 100%;
+ 	}
+
+ 	canvas {
+ 		display: block; /*remove scrollbar*/
+ 		background-color: red;
+ 	}
+
+ 	.box {
+ 		float: left;
+ 		width: 250px;
+ 		height: 250px;
+ 		background-color: black;
+ 	}
+
+ </style>
  <body>
-  
+  <canvas id="canvas">
+  	<div id="one" class="box">
+  	</div>
+  	<div id="two" class="box">
+  	</div>
+  	<div id="three" class="box">
+  	</div>
+  	<div id="four" class="box">
+  	</div>
+  	<div id="five" class="box">
+  	</div>
+  	<div id="six" class="box">
+  	</div>
+  	<div id="seven" class="box">
+  	</div>
+  	<div id="eight" class="box">
+  	</div>
+  </canvas>
+  <script src="http://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
+  <script src="color.js"></script>
  </body>
+
 </html>
