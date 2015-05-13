@@ -13,13 +13,17 @@ function resizeCanvas() {
      * Your drawings need to be inside this function otherwise they will be reset when 
      * you resize the browser window and the canvas goes will be cleared.
      */
-    drawStuff(); 
+    // drawStuff(); 
 }
     resizeCanvas();
 
-    function drawStuff() {
-            // do your drawing stuff here
-    }
+    // function drawStuff() {
+    //         // do your drawing stuff here
+    // }
+
+$('canvas').click(function(){
+    $(this).css('background', 'black');
+})
 
     
 };
